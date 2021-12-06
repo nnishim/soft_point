@@ -1,5 +1,121 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
-@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/bootstrap-grid';
 @import './default';
 @import './mixin';
+$green: #24DC9F;
+$black: #021206;
+$black-opacity: rgba(#021206, .7);
+$black-op05: rgba(#021206, .5);
+$red: #F44545;
+.navbar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 1rem 0;
+	z-index: 1000;
+	&__content{
+		@include space-between;
+	}
+}
+.logo{
+	&__span{
+		color: $green;
+		font-weight: 600;
+		font-size: 1.25rem;
+		text-shadow: 0px 4px 70px rgba(155, 215, 195, 0.8);
+	}
+}
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	@include flex-center;
+	flex-direction: column;
+	transform: translateX(100%);
+	transition: .5s ease-in-out;
+	&__links{
+		@include flex-center;
+		flex-direction: column;
+	}
+	&__link{
+		font-size: 1.125rem;
+		line-height: 1.6875rem;
+		color: $black;
+		opacity: 0.5;
+		margin-bottom: 20px;
+	}
+	&__buttons{
+		@include flex-center;
+		flex-direction: column;
+	}
+	&__btn{
+		font-weight: 500;
+		font-size: 1.125rem;
+		color: rgba(#021206, .7);
+		padding: 15px 30px;
+	}
+	&__btn--red{
+		color: #fff;
+		background-color: $red;
+		border-radius: 6px;
+	}
+}
+.hamburger{
+	display: block;
+}
+.nav.active{
+	transform: translateX(0);
+}
+.banner{
+	padding-top: 11.25rem;
+	&__title{
+		max-width: 487px;
+		font-weight: 600;
+		font-size: 3.375rem;
+		line-height: 5.0625rem;
+		margin-bottom: 25px;
+		&-span{
+			color: $green;
+		}
+	}
+	&__text{
+		font-size: 21px;
+		line-height: 160%;
+		color: $black-opacity;
+		margin-bottom: 30px;
+		&-span{
+			font-weight: 600;
+		}
+	}
+	&__form{
+		display: flex;
+		align-items: center;
+	}
+	&__email{
+		max-width: 470px;
+		padding: 19px 0 19px 24px;
+		border: none;
+		border-radius: 6px;
+		filter: drop-shadow(-5px 5px 45px rgba(2, 18, 6, 0.15));
+		&::placeholder{
+			font-size: 18px;
+			line-height: 27px;
+			color: $black-op05;
+		}
+	}
+	&__button{
+		font-weight: 500;
+		font-size: 21px;
+		color: #fff;
+		background-color: $red;
+		padding: 11px 30px;
+		border-radius: 6px;
+		border: none;
+	}
+}

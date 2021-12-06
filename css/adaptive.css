@@ -1,0 +1,27 @@
+@media screen and (min-width: 992px) {
+  .nav {
+    position: static;
+    background-color: transparent;
+    width: unset;
+    height: unset;
+    flex-direction: row;
+    transform: unset;
+    transition: unset;
+  }
+  .nav__links, .nav__buttons {
+    flex-direction: row;
+  }
+  .nav__links {
+    margin-right: 150px;
+  }
+  .nav__link {
+    margin: 0;
+    margin-left: 35px;
+  }
+
+  .hamburger {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=adaptive.css.map */

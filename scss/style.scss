@@ -340,3 +340,49 @@ $red: #F44545;
 		width: 100%;
 	}
 }
+.service{
+	margin-bottom: 6.875rem;
+}
+.download{
+	margin-bottom: 6.875rem;
+	background-color: rgba(#8EE6C9, 0.1);
+	padding: 5.625rem 0;
+	&__info{
+		max-width: 480px;
+		margin: 0 auto;
+		text-align: center;
+		&-title{
+			color: $black;
+			font-weight: 600;
+			font-size: 2.8125rem;
+			line-height: 4.1875rem;
+			margin-bottom: 1.25rem;
+		}
+		&-text{
+			color: $black-opacity;
+			font-size: 1.125rem;
+			line-height: 160%;
+		}
+		&-text--top{
+			margin-bottom: 1.25rem;
+		}
+		&-text--bottom{
+			margin-bottom: 1.875rem;
+		}
+		&-btn{
+			font-weight: 500;
+			font-size: 1.25rem;
+			line-height: 160%;
+			color: #FFFFFF;
+			padding: 0.9375rem 2.0625rem;
+			background-color: $red;
+			border-radius: 6px;
+		}
+	}
+	&__image{
+		display: none;
+	}
+	&__img{
+		width: 100%;
+	}
+}

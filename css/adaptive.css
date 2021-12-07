@@ -91,6 +91,19 @@
   .feature__image {
     display: block;
   }
+
+  .download__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .download__info {
+    margin: 0;
+    text-align: unset;
+  }
+  .download__image {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=adaptive.css.map */

@@ -5449,4 +5449,52 @@ body.lock {
   width: 100%;
 }
 
+.service {
+  margin-bottom: 6.875rem;
+}
+
+.download {
+  margin-bottom: 6.875rem;
+  background-color: rgba(142, 230, 201, 0.1);
+  padding: 5.625rem 0;
+}
+.download__info {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+.download__info-title {
+  color: #021206;
+  font-weight: 600;
+  font-size: 2.8125rem;
+  line-height: 4.1875rem;
+  margin-bottom: 1.25rem;
+}
+.download__info-text {
+  color: rgba(2, 18, 6, 0.7);
+  font-size: 1.125rem;
+  line-height: 160%;
+}
+.download__info-text--top {
+  margin-bottom: 1.25rem;
+}
+.download__info-text--bottom {
+  margin-bottom: 1.875rem;
+}
+.download__info-btn {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 160%;
+  color: #FFFFFF;
+  padding: 0.9375rem 2.0625rem;
+  background-color: #F44545;
+  border-radius: 6px;
+}
+.download__image {
+  display: none;
+}
+.download__img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -99,4 +99,16 @@
 			display: block;
 		}
 	}
+	.download{
+		&__content{
+			@include space-between;
+		}
+		&__info{
+			margin: 0;
+			text-align: unset;
+		}
+		&__image{
+			display: block;
+		}
+	}
 }

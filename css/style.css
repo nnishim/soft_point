@@ -5403,4 +5403,50 @@ body.lock {
   color: #F44545;
 }
 
+.feature {
+  margin-bottom: 6.875rem;
+}
+.feature__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature__info {
+  max-width: 524px;
+  margin: 0 auto;
+  text-align: center;
+}
+.feature__title {
+  color: #021206;
+  font-weight: 600;
+  font-size: 2.8125rem;
+  line-height: 4.1875rem;
+  margin-bottom: 1.25rem;
+}
+.feature__text {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 160%;
+  color: rgba(2, 18, 6, 0.7);
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+  max-width: 448px;
+}
+.feature__list-item {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  max-width: 401px;
+}
+.feature__list-span {
+  font-size: 1.125rem;
+  line-height: 160%;
+  color: rgba(2, 18, 6, 0.7);
+}
+.feature__image {
+  display: none;
+}
+.feature__img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

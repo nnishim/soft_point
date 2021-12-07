@@ -295,3 +295,48 @@ $red: #F44545;
 		}
 	}
 }
+.feature{
+	margin-bottom: 6.875rem;
+	&__content{
+		@include space-between;
+	}
+	&__info{
+		max-width: 524px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	&__title{
+		color: $black;
+		font-weight: 600;
+		font-size: 2.8125rem;
+		line-height: 4.1875rem;
+		margin-bottom: 1.25rem;
+	}
+	&__text{
+		font-weight: 500;
+		font-size: 1.125rem;
+		line-height: 160%;
+		color: $black-opacity;
+		margin: 0 auto;
+		margin-bottom: 1.25rem;
+		max-width: 448px;
+	}
+	&__list{
+		&-item{
+			margin: 0 auto;
+			margin-bottom: 1rem;
+			max-width: 401px;
+		}
+		&-span{
+			font-size: 1.125rem;
+			line-height: 160%;
+			color: $black-opacity;
+		}
+	}
+	&__image{
+		display: none;
+	}
+	&__img{
+		width: 100%;
+	}
+}

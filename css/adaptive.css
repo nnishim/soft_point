@@ -62,11 +62,10 @@
     bottom: 20px;
   }
 
-  .company__logo {
-    margin: 0;
-    margin-right: 40px;
+  .company__content {
+    justify-content: space-between;
   }
-  .company__logo:last-child {
+  .company__logo {
     margin: 0;
   }
 
@@ -75,6 +74,22 @@
   }
   .multiple__cards {
     margin-right: 2.8125rem;
+  }
+
+  .feature__info {
+    text-align: unset;
+    margin: 0;
+  }
+  .feature__text {
+    margin: 0;
+    margin-bottom: 1.25rem;
+  }
+  .feature__list-item {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .feature__image {
+    display: block;
   }
 }
 

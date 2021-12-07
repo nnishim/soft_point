@@ -439,6 +439,68 @@ $red: #F44545;
 			}
 		}
 	}
+	&__card{
+		background: #FFFFFF;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 15px;
+		max-width: 360px;
+		min-height: 600px;
+		&-top{
+			border-bottom: 1px solid rgba(#011212, 0.1);
+			text-align: center;
+			padding: 35px 0;
+		}
+		&-title{
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 170%;
+			color: $black-op05;
+			margin-bottom: 2.1875rem;
+		}
+		&-price{
+			color: $black;
+			font-weight: 600;
+			font-size: 2.6875rem;
+			line-height: 100%;
+		}
+		&-list{
+			margin-bottom: 3.125rem;
+		}
+		&-item{
+			padding: 20px 30px;
+			border-bottom: 1px solid rgba(#011212, 0.1);
+			@include space-between;
+		}
+		&-item--left{
+			display: flex;
+			align-items: center;
+		}
+		&-span{
+			margin-left: 0.4375rem;
+			font-weight: 500;
+			font-size: 1rem;
+			line-height: 160%;
+			color: $black-opacity;
+		}
+		&-right{
+			font-weight: 500;
+			font-size: 1rem;
+			line-height: 160%;
+			color: $black-opacity;
+		}
+		&-button{
+			text-align: center;
+		}
+		&-btn{
+			color: $red;
+			font-weight: 500;
+			font-size: 1.25rem;
+			line-height: 170%;
+			border-radius: 6px;
+			padding: 0.8125rem 70px;
+			border: 2px solid rgba($red , 0.2);
+		}
+	}
 }
 .switch {
   position: relative;

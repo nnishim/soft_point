@@ -22,6 +22,31 @@
   .hamburger {
     display: none !important;
   }
+
+  .banner__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner__info {
+    margin: 0;
+  }
+  .banner__store {
+    flex-direction: row;
+    justify-content: unset;
+  }
+  .banner__store-link {
+    margin: 0;
+    margin-right: 30px;
+  }
+  .banner__image {
+    display: block;
+  }
+  .banner__img--pos {
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=adaptive.css.map */

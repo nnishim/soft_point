@@ -1,3 +1,4 @@
+@import './mixin';
 @media screen and (min-width: 992px) {
 	.nav{
 		position: static;
@@ -20,5 +21,29 @@
 	}
 	.hamburger{
 		display: none !important;
+	}
+	.banner{
+		&__content{
+			@include space-between;
+		}
+		&__info{
+			margin: 0;
+		}
+		&__store{
+			flex-direction: row;
+			justify-content: unset;
+			&-link{
+				margin: 0;
+				margin-right: 30px;
+			}
+		}
+		&__image{
+			display: block;
+		}
+		&__img--pos{
+			position: absolute;
+			left: 40px;
+			bottom: 20px;
+		}
 	}
 }

@@ -74,6 +74,10 @@ $red: #F44545;
 }
 .banner{
 	padding-top: 11.25rem;
+	&__info{
+		max-width: 510px;
+		margin: 0 auto;
+	}
 	&__title{
 		max-width: 487px;
 		font-weight: 600;
@@ -89,6 +93,7 @@ $red: #F44545;
 		line-height: 160%;
 		color: $black-opacity;
 		margin-bottom: 30px;
+		// max-width: 509px;
 		&-span{
 			font-weight: 600;
 		}
@@ -96,10 +101,13 @@ $red: #F44545;
 	&__form{
 		display: flex;
 		align-items: center;
+		margin-bottom: 35px;
+		position: relative;
+		max-width: 470px;
 	}
 	&__email{
-		max-width: 470px;
-		padding: 19px 0 19px 24px;
+		width: 100%;
+		padding: 20px 0 20px 24px;
 		border: none;
 		border-radius: 6px;
 		filter: drop-shadow(-5px 5px 45px rgba(2, 18, 6, 0.15));
@@ -110,6 +118,9 @@ $red: #F44545;
 		}
 	}
 	&__button{
+		position: absolute;
+		top: 4px;
+		right: 6px;
 		font-weight: 500;
 		font-size: 21px;
 		color: #fff;
@@ -117,5 +128,47 @@ $red: #F44545;
 		padding: 11px 30px;
 		border-radius: 6px;
 		border: none;
+	}
+	&__store{
+		@include flex-center;
+		flex-direction: column;
+		&-link{
+			margin-bottom: 30px;
+		}
+	}
+	&__image{
+		position: relative;
+		min-height: 440px;
+		display: none;
+		&::before{
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 50px;
+			background: linear-gradient(180deg, #FEDF8B 0%, #FFC16B 100%), linear-gradient(180deg, #FFE6A2 0%, #F9D678 100%);
+			box-shadow: -4px 1px 80px rgba(246, 216, 135, 0.7);
+			border-radius: 50%;
+			width: 136px;
+			height: 136px;
+			z-index: -1;
+		}
+		&::after{
+			content: '';
+			position: absolute;
+			bottom: 50px;
+			right: 0;
+			background: linear-gradient(176.15deg, #8EE7CA 19.68%, #87D2BA 96.85%);
+			box-shadow: 0px 4px 70px rgba(155, 215, 195, 0.8);
+			border-radius: 50%;
+			width: 110px;
+			height: 110px;
+			z-index: -1;
+		}
+	}
+	&__img{
+		width: 100%;
+	}
+	&__img--pos{
+		max-width: 147px;
 	}
 }

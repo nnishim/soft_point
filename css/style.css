@@ -5097,6 +5097,10 @@ body.lock {
   overflow-x: hidden;
 }
 
+.header {
+  margin-bottom: 6.875rem;
+}
+
 .navbar {
   position: fixed;
   left: 0;
@@ -5144,7 +5148,7 @@ body.lock {
   line-height: 1.6875rem;
   color: #021206;
   opacity: 0.5;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .nav__buttons {
   display: flex;
@@ -5156,7 +5160,7 @@ body.lock {
   font-weight: 500;
   font-size: 1.125rem;
   color: rgba(2, 18, 6, 0.7);
-  padding: 15px 30px;
+  padding: 0.9375rem 1.875rem;
 }
 .nav__btn--red {
   color: #fff;
@@ -5184,16 +5188,16 @@ body.lock {
   font-weight: 600;
   font-size: 3.375rem;
   line-height: 5.0625rem;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 .banner__title-span {
   color: #24DC9F;
 }
 .banner__text {
-  font-size: 21px;
+  font-size: 1.3125rem;
   line-height: 160%;
   color: rgba(2, 18, 6, 0.7);
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .banner__text-span {
   font-weight: 600;
@@ -5201,20 +5205,20 @@ body.lock {
 .banner__form {
   display: flex;
   align-items: center;
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
   position: relative;
   max-width: 470px;
 }
 .banner__email {
   width: 100%;
-  padding: 20px 0 20px 24px;
+  padding: 1.25rem 0 1.25rem 1.5rem;
   border: none;
   border-radius: 6px;
   filter: drop-shadow(-5px 5px 45px rgba(2, 18, 6, 0.15));
 }
 .banner__email::placeholder {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
   color: rgba(2, 18, 6, 0.5);
 }
 .banner__button {
@@ -5222,10 +5226,10 @@ body.lock {
   top: 4px;
   right: 6px;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 1.3125rem;
   color: #fff;
   background-color: #F44545;
-  padding: 11px 30px;
+  padding: 0.6875rem 1.875rem;
   border-radius: 6px;
   border: none;
 }
@@ -5236,7 +5240,7 @@ body.lock {
   flex-direction: column;
 }
 .banner__store-link {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .banner__image {
   position: relative;
@@ -5272,6 +5276,22 @@ body.lock {
 }
 .banner__img--pos {
   max-width: 147px;
+}
+
+.company {
+  padding: 3.125rem 0;
+  background-color: rgba(142, 230, 201, 0.1);
+  margin-bottom: 6.875rem;
+}
+.company__content {
+  text-align: center;
+  align-items: center;
+}
+.company__logo {
+  margin-bottom: 3.125rem;
+}
+.company__logo:last-child {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

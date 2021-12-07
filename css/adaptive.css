@@ -47,6 +47,14 @@
     left: 40px;
     bottom: 20px;
   }
+
+  .company__logo {
+    margin: 0;
+    margin-right: 40px;
+  }
+  .company__logo:last-child {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=adaptive.css.map */

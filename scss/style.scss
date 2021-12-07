@@ -8,6 +8,9 @@ $black: #021206;
 $black-opacity: rgba(#021206, .7);
 $black-op05: rgba(#021206, .5);
 $red: #F44545;
+.header{
+	margin-bottom: 6.875rem;
+}
 .navbar{
 	position: fixed;
 	left: 0;
@@ -48,7 +51,7 @@ $red: #F44545;
 		line-height: 1.6875rem;
 		color: $black;
 		opacity: 0.5;
-		margin-bottom: 20px;
+		margin-bottom: 1.25rem;
 	}
 	&__buttons{
 		@include flex-center;
@@ -58,7 +61,7 @@ $red: #F44545;
 		font-weight: 500;
 		font-size: 1.125rem;
 		color: rgba(#021206, .7);
-		padding: 15px 30px;
+		padding: 0.9375rem 1.875rem;
 	}
 	&__btn--red{
 		color: #fff;
@@ -83,17 +86,16 @@ $red: #F44545;
 		font-weight: 600;
 		font-size: 3.375rem;
 		line-height: 5.0625rem;
-		margin-bottom: 25px;
+		margin-bottom: 1.5625rem;
 		&-span{
 			color: $green;
 		}
 	}
 	&__text{
-		font-size: 21px;
+		font-size: 1.3125rem;
 		line-height: 160%;
 		color: $black-opacity;
-		margin-bottom: 30px;
-		// max-width: 509px;
+		margin-bottom: 1.875rem;
 		&-span{
 			font-weight: 600;
 		}
@@ -101,19 +103,19 @@ $red: #F44545;
 	&__form{
 		display: flex;
 		align-items: center;
-		margin-bottom: 35px;
+		margin-bottom: 2.1875rem;
 		position: relative;
 		max-width: 470px;
 	}
 	&__email{
 		width: 100%;
-		padding: 20px 0 20px 24px;
+		padding: 1.25rem 0 1.25rem 1.5rem;
 		border: none;
 		border-radius: 6px;
 		filter: drop-shadow(-5px 5px 45px rgba(2, 18, 6, 0.15));
 		&::placeholder{
-			font-size: 18px;
-			line-height: 27px;
+			font-size: 1.125rem;
+			line-height: 1.6875rem;
 			color: $black-op05;
 		}
 	}
@@ -122,10 +124,10 @@ $red: #F44545;
 		top: 4px;
 		right: 6px;
 		font-weight: 500;
-		font-size: 21px;
+		font-size: 1.3125rem;
 		color: #fff;
 		background-color: $red;
-		padding: 11px 30px;
+		padding: 0.6875rem 1.875rem;
 		border-radius: 6px;
 		border: none;
 	}
@@ -133,7 +135,7 @@ $red: #F44545;
 		@include flex-center;
 		flex-direction: column;
 		&-link{
-			margin-bottom: 30px;
+			margin-bottom: 1.875rem;
 		}
 	}
 	&__image{
@@ -170,5 +172,20 @@ $red: #F44545;
 	}
 	&__img--pos{
 		max-width: 147px;
+	}
+}
+.company{
+	padding: 3.125rem 0;
+	background-color: rgba(#8EE6C9, 0.1);
+	margin-bottom: 6.875rem;
+	&__content{
+		text-align: center;
+		align-items: center;
+	}
+	&__logo{
+		margin-bottom: 3.125rem;
+		&:last-child{
+			margin: 0;
+		}
 	}
 }

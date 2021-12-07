@@ -1,3 +1,17 @@
+@media screen and (min-width: 576px) {
+  .multiple__card {
+    margin: 0;
+    margin-bottom: 1.875rem;
+  }
+  .multiple__info-buttons {
+    justify-content: unset;
+    flex-direction: row;
+  }
+  .multiple__info-btn {
+    margin: 0;
+    margin-right: 10px;
+  }
+}
 @media screen and (min-width: 992px) {
   .nav {
     position: static;
@@ -54,6 +68,13 @@
   }
   .company__logo:last-child {
     margin: 0;
+  }
+
+  .multiple__content {
+    flex-direction: row;
+  }
+  .multiple__cards {
+    margin-right: 2.8125rem;
   }
 }
 

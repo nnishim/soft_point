@@ -189,3 +189,109 @@ $red: #F44545;
 		}
 	}
 }
+.multiple{
+	margin-bottom: 6.875rem;
+	&__content{
+		@include space-between;
+		flex-direction: column;
+	}
+	&__cards{
+		max-width: 585px;
+	}
+	&__card{
+		max-width: 280px;
+		min-height: 290px;
+		padding: 2.1875rem 1.5rem 2.1875rem 2.1875rem;
+		background: #FFFFFF;
+		cursor: pointer;
+		border: 1px solid rgba(2, 18, 6, 0.1);
+		box-sizing: border-box;
+		border-radius: 10px;
+		margin: 0 auto;
+		margin-bottom: 1.875rem;
+		transition: .5s ease-in-out;
+		&:hover{
+			border: 1px solid #fff;
+			box-shadow: 0px 15px 65px rgba(65, 77, 68, 0.15);
+		}
+		&-image{
+			width: 75px;
+			height: 75px;
+			border-radius: 10px;
+			padding: 1.25rem;
+			margin-bottom: 1.5625rem;
+		}
+		&-image--red{
+			background: linear-gradient(141.58deg, #FF9A9A 3.63%, #F14C4C 91.45%);
+			box-shadow: 1px 5px 30px rgba(215, 21, 21, 0.5);
+		}
+		&-image--green{
+			background: linear-gradient(154.24deg, #85FED6 4.45%, #4EDAAC 83.73%);
+			box-shadow: 1px 5px 30px rgba(83, 215, 171, 0.5);
+		}
+		&-image--yellow{
+			background: linear-gradient(163.65deg, #FCD876 4.69%, #FABC13 88.66%);
+			box-shadow: 1px 5px 30px rgba(238, 185, 42, 0.6);
+		}
+		&-image--pink{
+			background: linear-gradient(143.75deg, #FE9AF4 0%, #EC4EDC 88.72%);
+			box-shadow: 1px 5px 30px rgba(230, 68, 214, 0.5);
+		}
+		&-title{
+			color: $black;
+			font-weight: 600;
+			font-size: 1.3125rem;
+			line-height: 1.9375rem;
+			margin-bottom: 0.625rem;
+		}
+		&-text{
+			color: $black-opacity;
+			font-size: 1rem;
+			line-height: 160%;
+		}
+	}
+	&__info{
+		&-title{
+			font-weight: 600;
+			font-size: 2.8125rem;
+			line-height: 4.1875rem;
+			color: $black;
+			max-width: 548px;
+		}
+		&-text{
+			color: $black-opacity;
+			font-size: 1.125rem;
+			line-height: 160%;
+			max-width: 479px;
+		}
+		&-text--top{
+			margin-bottom: 1rem;
+		}
+		&-text--bottom{
+			margin-bottom: 1.875rem;
+		}
+		&-span{
+			font-weight: 600;
+		}
+		&-buttons{
+			@include flex-center;
+			flex-direction: column;
+		}
+		&-btn{
+			padding: 0.9375rem 2.5rem;
+			color: #fff;
+			font-weight: 500;
+			font-size: 1.125rem;
+			background-color: #282323;
+			border-radius: 6px;
+			border: 1px solid #282323;
+			transition: .4s ease-in-out;
+			margin-bottom: 10px;
+			&:hover{
+				border: 1px solid $red;
+				background-color: transparent;
+				color: $red;
+			}
+		}
+	}
+}

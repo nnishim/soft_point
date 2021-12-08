@@ -12,6 +12,22 @@
     margin-right: 10px;
   }
 }
+@media screen and (min-width: 768px) {
+  .footer__content {
+    text-align: unset;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .footer__item {
+    margin: 0;
+  }
+  .footer__text {
+    margin: 0;
+  }
+  .footer__list-link {
+    margin-bottom: 0.625rem;
+  }
+}
 @media screen and (min-width: 992px) {
   .nav {
     position: static;
@@ -40,7 +56,7 @@
   .banner__content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
   .banner__info {
     margin: 0;
@@ -59,7 +75,7 @@
   .banner__img--pos {
     position: absolute;
     left: 40px;
-    bottom: 20px;
+    bottom: 60px;
   }
 
   .company__content {
@@ -103,6 +119,15 @@
   }
   .download__image {
     display: block;
+  }
+
+  .pricing__card {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .banner__image {
+    margin-right: -100px;
   }
 }
 

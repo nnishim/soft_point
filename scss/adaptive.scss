@@ -17,6 +17,26 @@
 		}
 	}
 }
+@media screen and (min-width: 768px){
+	.footer{
+		&__content{
+			text-align: unset;
+			flex-direction: row;
+			align-items: flex-start;
+		}
+		&__item{
+			margin: 0;
+		}
+		&__text{
+			margin: 0;
+		}
+		&__list{
+			&-link{
+				margin-bottom: 0.625rem;
+			}
+		}
+	}
+}
 @media screen and (min-width: 992px) {
 	.nav{
 		position: static;
@@ -42,7 +62,7 @@
 	}
 	.banner{
 		&__content{
-			@include space-between;
+			@include flex-center;
 		}
 		&__info{
 			margin: 0;
@@ -61,7 +81,7 @@
 		&__img--pos{
 			position: absolute;
 			left: 40px;
-			bottom: 20px;
+			bottom: 60px;
 		}
 	}
 	.company{
@@ -111,4 +131,16 @@
 			display: block;
 		}
 	}
+	.pricing{
+		&__card{
+			margin: 0;
+		}
+	}
 }
+	@media screen and (min-width: 1200px){
+		.banner{
+			&__image{
+				margin-right: -100px;
+			}
+		}
+	}

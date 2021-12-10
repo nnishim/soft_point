@@ -1,5 +1,10 @@
 @media screen and (min-width: 576px) {
   .multiple__card {
+    text-align: unset;
+    margin: 0;
+    margin-bottom: 1.875rem;
+  }
+  .multiple__card-image {
     margin: 0;
     margin-bottom: 1.875rem;
   }
@@ -91,12 +96,26 @@
   .multiple__cards {
     margin-right: 2.8125rem;
   }
+  .multiple__info-text {
+    text-align: unset;
+    margin: 0;
+  }
+  .multiple__info-text--top {
+    margin-bottom: 1rem;
+  }
+  .multiple__info-text--bottom {
+    margin-bottom: 1.875rem;
+  }
 
   .feature__info {
     text-align: unset;
     margin: 0;
   }
+  .feature__title {
+    text-align: unset;
+  }
   .feature__text {
+    text-align: unset;
     margin: 0;
     margin-bottom: 1.25rem;
   }

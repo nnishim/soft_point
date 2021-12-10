@@ -2,8 +2,13 @@
 @media screen and (min-width: 576px) {
 	.multiple{
 		&__card{
+			text-align: unset;
 			margin: 0;
 			margin-bottom: 1.875rem;
+			&-image{
+				margin: 0;
+				margin-bottom: 1.875rem;
+			}
 		}
 		&__info{
 			&-buttons{
@@ -99,13 +104,29 @@
 		&__cards{
 			margin-right: 2.8125rem;
 		}
+		&__info{
+			&-text{
+				text-align: unset;
+				margin: 0;
+			}
+			&-text--top{
+				margin-bottom: 1rem;
+			}
+			&-text--bottom{
+				margin-bottom: 1.875rem;
+			}
+		}
 	}
 	.feature{
 		&__info{
 			text-align: unset;
 			margin: 0;
 		}
+		&__title{
+			text-align: unset;
+		}
 		&__text{
+			text-align: unset;
 			margin: 0;
 			margin-bottom: 1.25rem;
 		}
